@@ -1,13 +1,17 @@
 {
-  "name":              "jukylin/jaeger-php",
-  "description":       "php client for jaeger",
-  "keywords":          ["jaeger","trace","opentracing"],
-  "license":           "Apache-2.0",
+  "name": "jukylin/jaeger-php",
+  "description": "php client for jaeger",
+  "keywords": [
+    "jaeger",
+    "trace",
+    "opentracing"
+  ],
+  "license": "Apache-2.0",
   "minimum-stability": "stable",
-  "require":           {
-    "php": ">=5.6.0",
-    "packaged/thrift" : "0.10.0",
-    "opentracing/opentracing" : "1.0.2"
+  "require": {
+    "php": "^7.4|^8.0|^8.1",
+    "packaged/thrift": "0.15.0",
+    "opentracing/opentracing": "1.0.2"
   },
   "authors": [
     {
@@ -15,7 +19,7 @@
       "email": "742161455@qq.com"
     }
   ],
-  "autoload":          {
+  "autoload": {
     "psr-4": {
       "Jaeger\\": "src\\Jaeger"
     },
